@@ -1,22 +1,33 @@
 <html>
+<head>  
+<link rel="stylesheet" type="text/css" href="style.css">
 
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>
-        Avenger's Photo Gallery
-    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
+<body class="body_backgorund">
 
-<body>
-    <img src="iron%20man.jpg">
-    <img src="index.jpg">
-    <img src="star.jpg">
-    <img src="captain%20a.jpg">
-    <img src="captain%20m.jpg">
-    <img src="gamora.jpg">
-    <img src="scarlet.jpg">
-    <img src="spider.jpg">
-    <a class="left carouse2-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+<div align="center">
+<h1>Paint</h1>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br >
+
+<!--Additional activity -->
+
+<span>Color - </span>  
+        <input type="text" id="color">
+        <br><br>        
+        <span>Width Of the line  - </span>  
+        <input type="text" id="width_of_line">
+        <br><br>        
+        <button onclick="clearArea();">Clear Area</button>
+
+
+    </div>
+<script src="main.js"></script>
 </body>
-
 </html>
